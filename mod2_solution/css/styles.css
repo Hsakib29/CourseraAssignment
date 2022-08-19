@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: lato;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+/* Base Style */
+#heading {
+    text-align: center;
+    font-size: 175%;
+}
+.menu {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+#t-1, #t-2, #t-3 {
+    padding: 5px 10px 5px 10px;
+    margin-top: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+    font-size: 75%;
+}
+#p-1, #p-2, #p-3 {
+    clear: right;
+    position: relative;
+    top: 20px;
+}
+#t-1 {
+    background-color: #BF5B63;
+    color: white;
+}
+#t-2 {
+    background-color: #7FA769;
+    color: white;
+}
+#t-3 {
+    background-color: #DB6153;
+    color: white;
+}
+.sec-1, .sec-2, .sec-3 {
+    padding: 10px 10px 10px 10px;
+    background-color: #F4EAE4;
+    position: relative;
+    border: 1px solid black;
+}
+
+/* Large Screen*/
+
+@media only screen and (min-width: 992px) {
+    .sec-1, .sec-2, .sec-3 {
+        float: left; 
+        margin: 1%;
+        width: 30%;
+    }
+}
+
+
+/* Medium Screen*/
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .sec-1, .sec-2 {
+        float: left;
+        margin: 2%;
+	    width: 46%;   
+    }
+    .sec-3 {
+        float: left;
+        margin: 2%;
+        width: 96%;
+    }
+}
+ 
+
+ /* Small Screen*/
+
+@media only screen and (max-width: 767px) {
+    .sec-1, .sec-2, .sec-3 {
+        margin: 3%;
+        width: 95%;
+    }
+}

@@ -1,0 +1,90 @@
+body {
+	background-color: #BFBFBF;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #127369;
+	border-radius: 0;
+	border: 0;
+}
+
+#navbar-brand {
+	font-family: lora, serif;
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #10403B;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #127369;
+	color: white;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+
+.navbar-collapse{
+  background-color: #8AA6A3;
+  }
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid white;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+
+/** End Header **/
+
+.menu-details {
+	background-color: #8AA6A3;
+}
+#menu-cat-title {
+	margin-bottom: 30px;
+	color: #10403B;
+}
+
+.menu-header {
+	color: white;
+}
+.menu-text {
+	color: #black;
+}
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) {
+	
+}
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) {
+	.navbar-collapse{
+  background-color: unset;
+  }
+}
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) { ... }
+
+/** X-Large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { ... }
+
+/** XX-Large devices (larger desktops, 1400px and up) **/
+@media (min-width: 1400px) { ... }

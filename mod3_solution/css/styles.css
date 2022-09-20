@@ -20,6 +20,10 @@ body {
 	text-shadow: 1px 1px 1px #222;
 	line-height: .75;
 }
+.container {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 #nav-list {
 	margin-top: 10px;
